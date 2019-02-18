@@ -16,6 +16,7 @@ public class ClientInstance {
   private DataInputStream inFromServer;
 
   private DataOutputStream outData;
+  private DataOutputStream outToServer;
 
   private int num_of_operations = 0;
 
